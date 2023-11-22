@@ -22,5 +22,5 @@ urlpatterns = [
 ]
 
 urlpatterns = [
-   path('api/', include('snippets.urls')),
+   path('', include('snippets.urls')),
 ]
